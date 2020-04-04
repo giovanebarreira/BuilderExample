@@ -15,6 +15,8 @@
 		AEBE52282436892D00283423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBE52262436892D00283423 /* LaunchScreen.storyboard */; };
 		AEBE52332436892E00283423 /* BuilderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE52322436892E00283423 /* BuilderExampleTests.swift */; };
 		AEBE523E2436892E00283423 /* BuilderExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE523D2436892E00283423 /* BuilderExampleUITests.swift */; };
+		AEF15F9D2438EB4500446C23 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF15F9C2438EB4500446C23 /* Car.swift */; };
+		AEF15F9F2438EC9800446C23 /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF15F9E2438EC9800446C23 /* CarBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AEBE52392436892E00283423 /* BuilderExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuilderExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBE523D2436892E00283423 /* BuilderExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExampleUITests.swift; sourceTree = "<group>"; };
 		AEBE523F2436892E00283423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF15F9C2438EB4500446C23 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		AEF15F9E2438EC9800446C23 /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				AEBE521B2436892C00283423 /* AppDelegate.swift */,
 				AEBE521D2436892C00283423 /* SceneDelegate.swift */,
 				AEBE521F2436892C00283423 /* ViewController.swift */,
+				AEF15F9E2438EC9800446C23 /* CarBuilder.swift */,
+				AEF15F9C2438EB4500446C23 /* Car.swift */,
 				AEBE52212436892C00283423 /* Main.storyboard */,
 				AEBE52242436892D00283423 /* Assets.xcassets */,
 				AEBE52262436892D00283423 /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				AEBE52202436892C00283423 /* ViewController.swift in Sources */,
 				AEBE521C2436892C00283423 /* AppDelegate.swift in Sources */,
+				AEF15F9D2438EB4500446C23 /* Car.swift in Sources */,
 				AEBE521E2436892C00283423 /* SceneDelegate.swift in Sources */,
+				AEF15F9F2438EC9800446C23 /* CarBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
